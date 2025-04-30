@@ -83,7 +83,7 @@ Thus, GRU is the **recommended model** for Bitcoin price forecasting using deep 
 - Try ensemble or attention-based models
 
 ---
-##🔗 Project Link
+## 🔗 Project Link
 Access the project and run it on Google Colab:
 [Project on Google Colab](https://colab.research.google.com/drive/1WMEF5q1oa56S232RFx1uqCOlx7fxm6YI?usp=sharing)
 
