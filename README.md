@@ -1,11 +1,11 @@
 
-# Bitcoin Price Prediction Using Deep Learning Models 📈💻
+# Bitcoin Price Prediction Using Deep Learning Models 
 
 This project implements and compares three deep learning models — **LSTM**, **GRU**, and **CNN-LSTM** — for predicting daily Bitcoin closing prices using historical data. The goal is to determine which architecture is most effective in capturing Bitcoin's highly volatile and nonlinear price behavior.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: Historical Bitcoin daily closing prices (2014–2024) from Kaggle.
 - **Features Used**: Only the `Close` price is used.
@@ -16,7 +16,7 @@ This project implements and compares three deep learning models — **LSTM**, **
 
 ---
 
-## 🧠 Models
+##  Models
 
 ### 1. LSTM (Long Short-Term Memory)
 - Two stacked LSTM layers (50 units each)
@@ -41,7 +41,7 @@ This project implements and compares three deep learning models — **LSTM**, **
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 - **RMSE**: Root Mean Squared Error
 - **MAPE**: Mean Absolute Percentage Error
@@ -49,7 +49,7 @@ This project implements and compares three deep learning models — **LSTM**, **
 
 ---
 
-## ✅ Results
+##  Results
 
 | Model       | Train RMSE | Test RMSE | Train Accuracy (MAPE) | Test Accuracy (MAPE) |
 |-------------|------------|-----------|------------------------|-----------------------|
@@ -59,7 +59,7 @@ This project implements and compares three deep learning models — **LSTM**, **
 
 ---
 
-## 🏆 Best Model
+##  Best Model
 
 Based on the results above, the **GRU model** achieved:
 - The **lowest RMSE** on both train and test sets
@@ -70,13 +70,13 @@ Thus, GRU is the **recommended model** for Bitcoin price forecasting using deep 
 
 ---
 
-## 📉 Known Issues
+## Known Issues
 
 - **NaN Validation Loss**: Caused by inconsistent normalization during validation split. Ensure validation/test data uses the same scaler fitted on training data.
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - Incorporate external features: trading volume, news sentiment, macroeconomic indices
 - Use Transformer-based architectures (e.g., BERT, TST)
@@ -87,7 +87,7 @@ Thus, GRU is the **recommended model** for Bitcoin price forecasting using deep 
 Access the project and run it on Google Colab:
 [Project on Google Colab](https://colab.research.google.com/drive/1WMEF5q1oa56S232RFx1uqCOlx7fxm6YI?usp=sharing)
 
-## 📝 Citation
+## Citation
 
 If you use this repository or its findings in your work, please cite:
 
